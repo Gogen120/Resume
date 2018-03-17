@@ -7,9 +7,9 @@ before_deploy:
   - cd build/html/
 deploy:
   provider: pages
+  file_glob: true
+  file: build/html/*
   skip-cleanup: true
   github-token: $GH_TOKEN # Set in travis-ci.org dashboard, marked secure
-  file:
-    - build/html/index.html
   on:
     branch: master
