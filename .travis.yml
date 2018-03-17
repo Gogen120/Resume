@@ -5,7 +5,7 @@ script:
   - make html
 deploy:
   provider: pages
-  file: index.html
+  local_dir: build/html/
   skip-cleanup: true
   github-token: $GH_TOKEN # Set in travis-ci.org dashboard, marked secure
   on:
