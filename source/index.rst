@@ -27,7 +27,7 @@ Technical Skills:
 
 - Mostly I using Python
 - Worked with web frameworks like Flask and Django
-- Have knowledge of packages for numerical analysis: numpy, pandas, matplotlib
+- Have knowledge of packages for numerical analysis: numpy, pandas, matplotlib, sklearn
 - Have basic knowledge of C/C++, JavaScript
 - SQL
 - Linux
