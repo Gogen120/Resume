@@ -3,8 +3,6 @@ python:
   - 3.6
 script:
   - make html
-before_deploy:
-  - cd build/html/
 deploy:
   provider: pages
   file_glob: true
