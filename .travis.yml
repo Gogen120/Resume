@@ -10,4 +10,5 @@ deploy:
   keep-history: true
   on:
     branch: master
+    repo: build/html/
 local_dir: build/html/
