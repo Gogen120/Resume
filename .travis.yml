@@ -3,6 +3,8 @@ python:
   - 3.6
 script:
   - make html
+before_deploy:
+  - cd build/html/
 deploy:
   provider: pages
   skip-cleanup: true
@@ -10,5 +12,4 @@ deploy:
   keep-history: true
   on:
     branch: master
-    repo: build/html/
 local_dir: build/html/
